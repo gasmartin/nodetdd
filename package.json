@@ -1,0 +1,18 @@
+{
+  "name": "nodetdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node src/server.js",
+    "test": "mocha --reporter spec"
+  },
+  "author": "Gabriel San Martin",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^7.1.2",
+    "request": "^2.88.2"
+  }
+}
